@@ -1,0 +1,55 @@
+.secao-streamers {
+    margin: 0 auto;
+    background: linear-gradient(45deg, #9572FC, #43E7AD, #E2D45C);
+    width: 580px;
+    height: 215px;
+    border-radius: 25px;
+    padding-top: 5px;
+    margin-top: 25px;
+}
+
+.caixa-streamers {
+    border: 1px solid #2A2634;
+    border-radius: 25px;
+    background-color: #2A2634;
+    width: 580px;
+    height: 215px;
+}
+
+.titulo-streamers {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.p-streamers {
+    color: #A1A1AA;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.img-streamers {
+    display: flex;
+    flex-wrap: wrap;
+    align-items: flex-start;
+    margin-left: 25px;
+    margin-top: 25px;
+}
+
+.profile-pic {
+    border-radius: 50%;
+    margin-right: 25px;
+}
+
+@media screen and (max-width: 1446px) {
+   
+    .secao-streamers {
+        width: 420px;
+    }
+
+    .caixa-streamers {
+        width: 420px;
+    }
+}

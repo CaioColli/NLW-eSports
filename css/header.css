@@ -1,0 +1,43 @@
+.cabecalho {
+    text-align: center;
+    margin-top: 24px;
+}
+
+.div-cabecalho {
+    width: 150px;
+    margin: 0 auto;
+    background: linear-gradient(45deg, #9572FC, #43E7AD, #E2D45C);
+    
+    border-radius: 50%;
+
+    display: flex;
+    padding: 5px;
+
+    transition: transform .3s;
+}
+
+.imagem-perfil {
+    width: 100%;
+    border-radius: 50%;
+}
+
+.div-cabecalho:hover {
+    transform: scale(1.1);
+}
+
+/* Animation */
+
+.div-cabecalho {
+    animation: fromTop 3s backwards;
+}
+
+@keyframes fromTop {
+    from{
+        opacity: 0;
+        transform: translateY(-100px);
+    }
+
+    to{
+        transform: translateY(0);
+    }
+}

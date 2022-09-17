@@ -1,0 +1,60 @@
+.secao-redes-sociais {
+    margin: 0 auto;
+    background: linear-gradient(45deg, #9572FC, #43E7AD, #E2D45C);
+    width: 580px;
+    height: 190px;
+    border-radius: 25px;
+    padding-top: 5px;
+    margin-top: 25px;
+}
+
+.caixa-redes-sociais {
+    border: 1px solid #2A2634;
+    border-radius: 25px;
+    background-color: #2A2634;
+    width: 580px;
+    height: 190px;
+}
+
+.titulo-redes-sociais {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.p-redes-sociais {
+    color: #A1A1AA;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.img-icones {
+    display: flex;
+    margin-left: 10px;
+    margin-top: 25px;
+}
+
+.icon {
+    margin-left: 15px;
+}
+
+.descricao-final {
+    text-align: center;
+    font-size: 24px;
+    background: linear-gradient(45deg, #9572FC, #43E7AD, #E2D45C);
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+}
+
+@media screen and (max-width: 1446px) {
+
+    .secao-redes-sociais {
+        width: 420px;
+    }
+
+    .caixa-redes-sociais {
+        width: 420px;
+    }
+}

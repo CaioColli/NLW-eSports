@@ -1,0 +1,55 @@
+@import url("../css/header.css");
+@import url("../css/secao-meus-jogos.css");
+@import url("../css/secao-streamers.css");
+@import url("../css/secao-redes-sociais.css");
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html {
+    scroll-behavior: smooth;
+}
+
+body {
+    background-image: url(../img/background/Fundo.jpg);
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position-x: center;
+    font-family:'Inter';
+    font-size: 16px;
+    font-weight: 400;
+    margin-bottom: 25px;
+    background-color: #121214;
+}
+
+main {
+    height: 100vh;
+}
+
+
+ul li {
+    transition: transform 2s; 
+}
+
+ul li:hover {
+    transform: scale(1.1);
+}
+
+@media screen and (max-width: 1446px) {
+    body {
+        flex-wrap: wrap;
+        background-image: url(../img/background/Fundo.jpg);
+        background-repeat: no-repeat;
+        background-size: 100%;
+    }
+
+    main {
+        height: 110vh;
+    }
+}
+
+
+

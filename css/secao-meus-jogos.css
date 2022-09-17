@@ -1,0 +1,54 @@
+.secao-meus-jogos {
+    background: linear-gradient(45deg, #9572FC, #43E7AD, #E2D45C);
+    width: 580px;
+    height: 300px;
+    border-radius: 25px;
+    padding-top: 5px;
+    margin: 0 auto; 
+    margin-top: 25px;
+}
+
+.caixa-meus-jogos {
+    border: 1px solid #2A2634;
+    border-radius: 25px;
+    background-color: #2A2634;
+    width: 580px;
+    height: 300px;
+}
+
+.titulo-meus-jogos {
+    font-size: 24px;
+    font-weight: 900;
+    color: white;
+    margin-top: 25px;
+    margin-left: 25px;
+}
+
+.p-meus-jogos {
+    color: #A1A1AA;
+    margin-top: 15px;
+    margin-left: 25px;
+}
+
+.img-jogos {
+    display: flex;
+    flex-wrap: wrap;
+    margin-top: 25px;
+}
+
+.img-jogo {
+    border-radius: 15px;
+    margin-left: 25px;
+    width: 110px;
+}
+
+@media screen and (max-width: 1446px) {
+
+    .secao-meus-jogos {
+        width: 420px;
+    }
+
+    .caixa-meus-jogos {
+        width: 420px;
+    }
+}
