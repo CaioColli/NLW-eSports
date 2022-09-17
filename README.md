@@ -1,2 +1,2 @@
 # NLW-eSports
-NLW eSports Projetc
+NLW eSports Project
